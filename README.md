@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <img src="https://img.shields.io/pypi/v/sollol?style=for-the-badge&color=blue" alt="PyPI">
   <img src="https://img.shields.io/github/stars/B-A-M-N/SOLLOL?style=for-the-badge&color=gold" alt="Stars">
@@ -119,7 +121,7 @@ Web UI at `http://localhost:8080` showing:
 No async/await needed:
 
 ```python
-from sollol.sync_wrapper import OllamaPool
+from sollol import OllamaPool
 from sollol.priority_helpers import Priority
 
 pool = OllamaPool.auto_configure()
